@@ -1,0 +1,18 @@
+# Terraform state: contains secrets like the database password
+*.tfstate
+*.tfstate.*
+
+# Terraform's downloaded provider plugins (large, rebuilt by terraform init)
+.terraform/
+
+# Variable files can contain personal values
+*.tfvars
+
+# SSH keys
+*.pem
+
+# Crash logs
+crash.log
+
+# Mac system files
+.DS_Store
